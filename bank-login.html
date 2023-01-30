@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!----------- steps start---------------
+    1.Title name choice & tailwindcss cdn script src copy paste.
+    2.in body first header name with span tag
+    3.below header, main sections two input fields id with button id
+    4.js folder open & login.js file create
+    5.after main section & just above body script src connect login.js file with js folder
+ -----------------steps end-------------------------->
+</head>
+
+<body>
+    <header>
+        <h1 class="text-6xl mt-8 text-center">Welcome to
+            <span class="font-bold text-red-500">Baaper Bank!</span>
+        </h1>
+    </header>
+
+    <main>
+        <section class="bg-blue-200 w-10/12 mx-auto mt-14 p-10">
+            <h2 class="text-6xl mb-4 font-medium">please log in</h2>
+            <div>
+                <input class="w-9/12 block mb-3 px-6 text-xl" type="email" name="" id="useremail"
+                    placeholder="your email address">
+                <input class="w-9/12 block mb-3 px-6 text-xl" type="password" name="" id="userpassword"
+                    placeholder="your password">
+                <button id="btn-submit"
+                    class="bg-amber-700 hover:bg-violet-600 px-8 py-2 text-white font-mediumta rounded-3xl text-2xl">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/login.js"></script>
+</body>
+
+
+</html>
